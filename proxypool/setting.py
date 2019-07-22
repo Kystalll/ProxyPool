@@ -5,7 +5,7 @@ REDIS_HOST = '127.0.0.1'
 REDIS_PORT = 6379
 
 # Redis密码，如无填None
-REDIS_PASSWORD = None
+REDIS_PASSWORD = 'UVyc1VGo%%KkU7B3'
 
 REDIS_KEY = 'proxies'
 
@@ -20,15 +20,15 @@ VALID_STATUS_CODES = [200, 302]
 POOL_UPPER_THRESHOLD = 50000
 
 # 检查周期
-TESTER_CYCLE = 20
+TESTER_CYCLE = 5
 # 获取周期
-GETTER_CYCLE = 300
+GETTER_CYCLE = 100
 
 # 测试API，建议抓哪个网站测哪个
-TEST_URL = 'http://www.baidu.com'
+TEST_URL = 'https://www.douban.com/'
 
 # API配置
-API_HOST = '0.0.0.0'
+API_HOST = '127.0.0.1'
 API_PORT = 5555
 
 # 开关
@@ -37,4 +37,4 @@ GETTER_ENABLED = True
 API_ENABLED = True
 
 # 最大批测试量
-BATCH_TEST_SIZE = 10
+BATCH_TEST_SIZE = 50

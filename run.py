@@ -1,4 +1,4 @@
-from proxypool.scheduler import Scheduler
+from ProxyPool.proxypool.scheduler import Scheduler
 import sys
 import io
 

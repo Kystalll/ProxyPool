@@ -1,4 +1,4 @@
-from proxypool.importer import scan
+from ProxyPool.proxypool.importer import scan
 
 if __name__ == '__main__':
     scan()
